@@ -1,0 +1,18 @@
+{
+    "name": "vendor/autoload",
+    "autoload": {
+        "psr-4": {
+            "Vendor\\Autoload\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kedeayei Okoi",
+            "email": "kdtexblog@gmail.com"
+        }
+    ],
+    "require": {
+        "amadeus4dev/amadeus-php": "^0.3.0",
+        "vlucas/phpdotenv": "^5.4"
+    }
+}
